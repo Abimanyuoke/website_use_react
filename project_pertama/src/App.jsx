@@ -1,7 +1,19 @@
+import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
+import HomePage from "./pages/HomePage"
+
+
 function App() {
   return (
   <div>
-    <h2 className="text-teal-500 font-bold text-2xl text-center p-4">Hello World</h2>
+    
+    {/* Navbar */}
+    <Navbar />
+    {/* Content */}
+    {/* <HomePage /> */}
+    {/* Footer */}
+    {/* <Footer /> */}
+
   </div>
   )
 }
