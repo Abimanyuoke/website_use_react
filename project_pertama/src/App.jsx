@@ -11,7 +11,7 @@ function App() {
     {/* Navbar */}
     <Navbar />
     {/* Content */}
-    {/* <HomePage /> */}
+    <HomePage />
     {/* Footer */}
     {/* <Footer /> */}
   </div>
