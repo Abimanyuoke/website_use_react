@@ -4,7 +4,7 @@ import Proyek from "../assets/images/dev-gif.gif"
 
 const HomePage = () => {
   return (
-    <div className="homepage pb-10 px-8" id="homepage">
+    <div className="homepage pb-10 lg:px-8" id="homepage">
       <div className="container mx-auto px-4">
         <div className="hero pt-32 grid md:grid-cols-2 grid-cols-1 items-center gap-20">
           <div className="box">
@@ -17,7 +17,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="about grid md:grid-cols-2 md:pt-20 pt-36 md:gap-20 gap-10 items-center px-8" id="about">
+        <div className="about grid md:grid-cols-2 md:pt-20 pt-36 md:gap-20 gap-10 items-center lg:px-8" id="about">
           <div className="box md:order-1 order-2">
             <img src={AboutImage} alt="About Image" className="lg:w-[500px] w-[400px] mx-auto md:m-0"/>
           </div>
@@ -27,7 +27,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="services pt-36 px-8" id="services">
+        <div className="services pt-36 lg:px-8" id="services">
           <h1 className=" text-center lg:text-5xl/tight text-3xl font-medium mb-2">Layanan</h1>
           <p className=" text-center text-base/loose">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
           <div className="services-box pt-12 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
@@ -49,7 +49,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="project pt-40 px-8" id="project">
+        <div className="project pt-40 lg:px-8" id="project">
         <h1 className=" text-center lg:text-5xl/tight text-3xl font-medium mb-2">Proyek</h1>
         <p className=" text-center text-base/loose">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
         <div className="proyek-box pt-12 grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
